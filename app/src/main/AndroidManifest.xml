@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NavigateActivity"
+            android:label="@string/title_activity_navigate"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jcse.app.egr2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ClassroomActivity"
+            android:label="@string/title_activity_classroom"
+            android:parentActivityName=".NavigateActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jcse.app.egr2.NavigateActivity" />
+        </activity>
     </application>
 
 </manifest>

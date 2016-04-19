@@ -32,6 +32,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="jcse.app.egr2.NavigateActivity" />
         </activity>
+        <activity
+            android:name=".LessonActivity"
+            android:label="@string/title_activity_lesson" >
+        </activity>
     </application>
 
 </manifest>

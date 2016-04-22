@@ -7,13 +7,8 @@
     tools:context="jcse.app.egr2.LessonActivity"
     android:orientation="horizontal" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/item"/>
-    <ImageView
+    <ListView
+        android:id="@+id/list"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/imageView"
-        android:src="@drawable/testimage"/>
+        android:layout_height="fill_parent" />
 </LinearLayout>

@@ -15,7 +15,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
 
     public ImageAdapter(Activity context, String[] itemname, Integer[] imgid) {
         super(context, R.layout.lesson_list, itemname);
-        
+
 
         this.context=context;
         this.itemname=itemname;

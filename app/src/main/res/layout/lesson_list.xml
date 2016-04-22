@@ -3,9 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="{relativePackage}.${activityClass}" >
-
-    <ListView
-        android:id="@+id/list"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item"/>
+    <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/testimage"/>
+
 </RelativeLayout>

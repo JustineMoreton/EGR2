@@ -38,7 +38,7 @@ public class ClassroomActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void lessonOne(View view){
+    public void lesson(View view){
         Intent intent= new Intent(this, LessonActivity.class);
         startActivity(intent);
     }

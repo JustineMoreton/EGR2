@@ -10,12 +10,23 @@
 
         android:text="Lesson 1"
         android:id="@+id/button4"
+        android:onClick="lesson"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="245dp"
         android:textColor="#4A4A4A"
         android:textSize="30sp"
         android:layout_width="270dp"
         android:layout_height="60dp"
-        android:background="@drawable/bluebutton"/>
+        android:background="@drawable/greenbutton"/>
+    <Button
+        android:text="Lesson 2"
+        android:id="@+id/button6"
+        android:textColor="#4A4A4A"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/greenbutton"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/button4" />
 
 </RelativeLayout>
